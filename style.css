@@ -137,14 +137,13 @@ section,footer{
 .container-collection button a{
 color: #6E6D6E;
 }
-/**/
+/*footer*/
 footer{
     background-color: #FEEFDE;
     color: #6E6D6E;
 }
 .container-footer{
     padding: 2rem 0 ;
-    
     width: 80%;
     margin: auto;
     display: grid;
@@ -158,6 +157,44 @@ footer{
     grid-column: 1/3;
     text-align: center;
 }
+/*about*/
+.container-about{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 25% 70%;
+    gap: 1rem;
+    
+}
+ .container-about h3,.container-gallery h3{
+    grid-column: 1/3;
+    padding: 3rem;
+    color: #6E6D6E;
+    text-transform: uppercase;
+}
+.container-about p{
+    width: 80%;
+    color: #6E6D6E;
+    padding: 4rem 0;
+    text-align: justify;
+}
+
+.container-about img{
+    width:17rem;
+    
+}
+/*gallery*/
+.container-gallery{
+    height: 100vh;
+    
+}
+
+
+
+
+
 
 
 
