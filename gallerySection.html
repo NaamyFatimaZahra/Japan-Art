@@ -28,11 +28,12 @@
     </nav>
 </header>
    <!----------------------------------------- GALLERY SECTION ------------------------------------------------>
-  <section >
+  <section class="gallery-section" >
 <div class="container-gallery">
     <h3>home/gallery</h3>
+<div class="collection-container">
     <article>
-        <input type="search" placeholder="search">
+        <input class="search-input" type="search" placeholder="search . . .">
         <ul>
             <li> Katsushika Hokusai</li>
             <li>Hiroshige</li>
@@ -40,19 +41,23 @@
             <li>Vincent van Gogh</li>
             <li>Utagawa Kunisada</li>
         </ul>
-        <input type="checkbox" name="checkbox" id="checkbox">
+       <div>
+        <input class="checkbox-input" type="checkbox" name="checkbox" id="checkbox">
         <label for="checkbox">free shipping</label>
+       </div>
         <button><a aria-label="clear the serach" href="#">clear</a></button>
     </article>
     <div class="all-collection">
-     <div class="left-part-gallery">
-        <i class="fa-solid fa-bars"></i>
-        <img src="images/grid-2.png" alt="">
-        <p>11 painting found</p>
-     </div>
-     <div class="left-part-gallery">
-       <p>sort by</p>
-        <p>price(highest)</p>
+     <div class="left-right">
+        <div class="left-part-gallery">
+            <i class="fa-solid fa-bars"></i>
+            <img src="images/grid-2.png" alt="">
+            <p>11 painting found</p>
+         </div>
+         <div class="right-part-gallery">
+            <p>sort by</p>
+             <p>price(highest)</p>
+          </div>
      </div>
      <div class="images">
         <img src="images/Beauty in the Moonlight.jpg" alt="">
@@ -69,6 +74,7 @@
      </div>
 
     </div>
+</div>
      
 </div>
   </section>
